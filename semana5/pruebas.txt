@@ -1,0 +1,18 @@
+1. http://localhost:3000
+Al acceder a esta ruta raíz mediante el navegador, el servidor 
+procesa una petición HTTP GET y responde enviando el texto "Servidor activo". 
+En la pantalla del navegador se visualiza únicamente dicha frase, lo que confirma 
+que el backend está encendido y respondiendo correctamente.
+
+2. http://localhost:3000/saludo
+Al ingresar a esta dirección, el servidor ejecuta la lógica del endpoint 
+'/saludo' y devuelve la cadena de texto "Hola comunidad". El navegador 
+renderiza este mensaje directamente en la ventana, validando el funcionamiento 
+de una ruta estática específica.
+
+3. http://localhost:3000/mensaje/juan
+Esta ruta contiene un parámetro dinámico llamado ':nombre'. 
+Al enviar la solicitud con el valor 'juan', el servidor captura 
+dicho parámetro a través de 'req.params.nombre' y responde concatenándolo 
+en la frase "Hola juan". El navegador muestra el saludo personalizado, 
+demostrando que la API puede recibir y procesar variables directamente desde la URL.
