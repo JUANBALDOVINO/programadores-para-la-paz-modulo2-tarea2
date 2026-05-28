@@ -1,0 +1,12 @@
+Las APIs actúan como puentes tecnológicos esenciales para que las comunidades 
+centralicen y gestionen su información de manera eficiente. Al estandarizar la forma 
+en que se comparten los datos, permiten que diferentes aplicaciones 
+desde alertas comunitarias hasta reportes de servicios públicos se comuniquen entre sí 
+en tiempo real y sin fricciones. Esto significa que un reporte ciudadano sobre un incidente 
+local puede registrarse instantáneamente en una base de datos común y, de forma automática, 
+distribuirse hacia canales de mensajería, mapas vecinales o paneles de control de las autoridades. 
+Además, al estructurar la información mediante formatos claros, facilitan la 
+clasificación por categorías, urgencia o ubicación geográfica. En consecuencia, 
+las APIs eliminan el caos de los mensajes dispersos, transformando la participación 
+ciudadana en un ecosistema de comunicación organizado, colaborativo y 
+con capacidad de respuesta inmediata.
